@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Ultra 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Nov 25 11:36:23 CET 2022"/>
+    <bibliography author="TunerStudio MS Ultra 3.1.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: Project close - &lt;br&gt;" writeDate="Mon Nov 21 17:43:42 CET 2022"/>
     <versionInfo fileFormat="5.0" firmwareInfo="Tuareg+V0.25+2022.09" nPages="23" signature="rusEFI v1.04"/>
     <page>
         <pcVariable name="tsCanId">"0"</pcVariable>
@@ -968,22 +968,22 @@
         <constant digits="0" name="Syslog_14_src" units="Module-ID">26.0</constant>
         <constant name="Syslog_14_d">"Off"</constant>
         <constant name="Syslog_14_dlog">"0"</constant>
-        <constant digits="0" name="Syslog_15_ts" units="Timestamp">0.0</constant>
+        <constant digits="0" name="Syslog_15_ts" units="Timestamp">25678.0</constant>
         <constant name="Syslog_15_type">"II"</constant>
-        <constant name="Syslog_15_loc">"0"</constant>
-        <constant digits="0" name="Syslog_15_src" units="Module-ID">0.0</constant>
+        <constant name="Syslog_15_loc">"6"</constant>
+        <constant digits="0" name="Syslog_15_src" units="Module-ID">40.0</constant>
         <constant name="Syslog_15_d">"Off"</constant>
         <constant name="Syslog_15_dlog">"0"</constant>
-        <constant digits="0" name="Syslog_16_ts" units="Timestamp">0.0</constant>
+        <constant digits="0" name="Syslog_16_ts" units="Timestamp">33581.0</constant>
         <constant name="Syslog_16_type">"II"</constant>
-        <constant name="Syslog_16_loc">"0"</constant>
-        <constant digits="0" name="Syslog_16_src" units="Module-ID">0.0</constant>
+        <constant name="Syslog_16_loc">"2"</constant>
+        <constant digits="0" name="Syslog_16_src" units="Module-ID">4.0</constant>
         <constant name="Syslog_16_d">"Off"</constant>
         <constant name="Syslog_16_dlog">"0"</constant>
-        <constant digits="0" name="Syslog_17_ts" units="Timestamp">0.0</constant>
+        <constant digits="0" name="Syslog_17_ts" units="Timestamp">34481.0</constant>
         <constant name="Syslog_17_type">"II"</constant>
-        <constant name="Syslog_17_loc">"0"</constant>
-        <constant digits="0" name="Syslog_17_src" units="Module-ID">0.0</constant>
+        <constant name="Syslog_17_loc">"5"</constant>
+        <constant digits="0" name="Syslog_17_src" units="Module-ID">4.0</constant>
         <constant name="Syslog_17_d">"Off"</constant>
         <constant name="Syslog_17_dlog">"0"</constant>
         <constant digits="0" name="Syslog_18_ts" units="Timestamp">0.0</constant>
