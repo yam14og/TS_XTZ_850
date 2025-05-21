@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Ultra 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Dec 29 14:18:15 CET 2024"/>
+    <bibliography author="TunerStudio MS Ultra 3.1.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: Project close - &lt;br&gt;" writeDate="Sun Dec 29 13:10:55 CET 2024"/>
     <versionInfo fileFormat="5.0" firmwareInfo="Tuareg+V0.25.8+2024.08" nPages="23" signature="rusEFI v1.04"/>
     <page>
         <pcVariable name="tsCanId">"0"</pcVariable>

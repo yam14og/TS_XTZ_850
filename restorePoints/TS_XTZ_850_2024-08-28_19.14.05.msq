@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Ultra 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Dec 29 14:18:15 CET 2024"/>
+    <bibliography author="TunerStudio MS Ultra 3.1.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: Project close - &lt;br&gt;" writeDate="Wed Aug 28 19:14:05 CEST 2024"/>
     <versionInfo fileFormat="5.0" firmwareInfo="Tuareg+V0.25.8+2024.08" nPages="23" signature="rusEFI v1.04"/>
     <page>
         <pcVariable name="tsCanId">"0"</pcVariable>
@@ -100,18 +100,18 @@
     <page number="2" size="19">
         <constant digits="0" name="DecoderVersion" units="#">4.0</constant>
         <constant digits="0" name="DecTimeout" units="s">3.0</constant>
-        <constant digits="0" name="DecCrankNoiseFilter" units="#">4.0</constant>
+        <constant digits="0" name="DecCrankNoiseFilter" units="#">3.0</constant>
         <constant name="DecKeyBeginSensing">"FALL"</constant>
         <constant name="DecKeyEndSensing">"RISE"</constant>
         <constant digits="0" name="DecSyncRatioMin" units="%">20.0</constant>
         <constant digits="0" name="DecSyncRatioMax" units="%">60.0</constant>
-        <constant digits="0" name="DecCamNoiseFilter" units="#">4.0</constant>
+        <constant digits="0" name="DecCamNoiseFilter" units="#">3.0</constant>
         <constant name="DecLobeBeginSensing">"FALL"</constant>
         <constant name="DecLobeEndSensing">"RISE"</constant>
         <constant name="DecCisEnablePos">"CRK_POSITION_D2"</constant>
         <constant name="DecCisDisablePos">"CRK_POSITION_B2"</constant>
         <constant name="DecCisTriggeredPhase">"CYL1_EX"</constant>
-        <constant digits="0" name="DecCisMinAngle" units="deg">10.0</constant>
+        <constant digits="0" name="DecCisMinAngle" units="deg">8.0</constant>
         <constant digits="0" name="DecCisSyncThres" units="#">100.0</constant>
         <constant digits="2" name="DecAccelFilterCoeff">0.1</constant>
     </page>
@@ -1060,13 +1060,13 @@
         <constant name="Syslog_29_dlog">"0"</constant>
     </page>
     <page number="22" size="7">
-        <constant digits="0" name="Faultlog_count" units="Entries">3.0</constant>
-        <constant digits="0" name="Faultlog_00_loc" units="Location">8.0</constant>
-        <constant digits="0" name="Faultlog_00_src" units="Module-ID">27.0</constant>
-        <constant digits="0" name="Faultlog_01_loc" units="Location">8.0</constant>
-        <constant digits="0" name="Faultlog_01_src" units="Module-ID">27.0</constant>
-        <constant digits="0" name="Faultlog_02_loc" units="Location">8.0</constant>
-        <constant digits="0" name="Faultlog_02_src" units="Module-ID">27.0</constant>
+        <constant digits="0" name="Faultlog_count" units="Entries">0.0</constant>
+        <constant digits="0" name="Faultlog_00_loc" units="Location">0.0</constant>
+        <constant digits="0" name="Faultlog_00_src" units="Module-ID">0.0</constant>
+        <constant digits="0" name="Faultlog_01_loc" units="Location">0.0</constant>
+        <constant digits="0" name="Faultlog_01_src" units="Module-ID">0.0</constant>
+        <constant digits="0" name="Faultlog_02_loc" units="Location">0.0</constant>
+        <constant digits="0" name="Faultlog_02_src" units="Module-ID">0.0</constant>
     </page>
     <settings Comment="These setting are only used if this msq is opened without a project.">
         <setting name="enablehardware_test_OFF" value="enablehardware_test_OFF"/>
